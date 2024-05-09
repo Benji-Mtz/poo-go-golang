@@ -1,13 +1,9 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/Benji-Mtz/poo-go-golang/02-metodos/modelos"
-)
+import "github.com/Benji-Mtz/poo-go-golang/03-encapsulacion/course"
 
 func main() {
-	Go := &modelos.Course{
+	Go := &course.Course{
 		Name:    "POO en Golang",
 		Price:   12.34,
 		IsFree:  false,
@@ -20,6 +16,4 @@ func main() {
 	}
 
 	Go.PrintClases()
-	Go.ChangePrice(300.00)
-	fmt.Println(Go.Price)
 }

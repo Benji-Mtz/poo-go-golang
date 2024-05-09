@@ -1,3 +1,3 @@
-module github.com/Benji-Mtz/poo-go/02-metodos
+module github.com/Benji-Mtz/poo-go-golang/02-metodos
 
-go 1.18
+go 1.22.2
